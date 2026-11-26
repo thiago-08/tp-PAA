@@ -33,10 +33,17 @@
 *.a
 *.lib
 
-# Executables
+# Executables (Windows/Mac)
 *.exe
 *.out
 *.app
+
+# Executáveis Linux (gerados pelo seu Makefile)
+/clique
+/conjunto_independente
+/gerador
+/sat
+/sat3
 
 # Build directories
 [Bb]uild/
@@ -47,7 +54,7 @@ cmake-build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
+# Makefile  <-- REMOVA OU COMENTE ESTA LINHA
 install_manifest.txt
 compile_commands.json
 
